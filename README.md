@@ -61,7 +61,6 @@ After running the program, the weights and losses will be displayed on the conso
 The project directory should look like this:
 
 /neural-network-project
-│
 ├── general.cpp
 ├── hidden.cpp
 ├── input.txt
@@ -74,6 +73,7 @@ The project directory should look like this:
 ├── Weights3.txt
 ├── Weights4.txt
 └── Weights5.txt
+
 
 ## Troubleshooting
 
