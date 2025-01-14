@@ -24,9 +24,11 @@ This project is developed and tested on Ubuntu. The following dependencies are r
 
 Run the following commands to install the necessary dependencies:
 
+```
 sudo apt update
 sudo apt install g++ make
 sudo apt install libpthread-stubs0-dev
+```
 
 ## Compilation
 
@@ -34,7 +36,7 @@ sudo apt install libpthread-stubs0-dev
 
     Compile the project using g++:
 
-g++ -o neural_network main.cpp general.cpp hidden.cpp output.cpp -lpthread
+```g++ -o neural_network main.cpp general.cpp hidden.cpp output.cpp -lpthread```
 
 This will create an executable file named neural_network in the current directory.
 
